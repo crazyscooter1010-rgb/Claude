@@ -1,10 +1,10 @@
-# CLAUDE.md
+# AGENTS.md
 
-This file provides guidance to Claude Code when working in this repository.
+This file provides guidance to Codex when working in this repository.
 
 ## Project
 
-This is Logan's primary Claude Code workspace — a blank-slate repo used for building projects and automations. No single framework or stack is locked in yet; this file should be updated as projects are added.
+This is Logan's primary Codex workspace — a blank-slate repo used for building projects and automations. No single framework or stack is locked in yet; this file should be updated as projects are added.
 
 Common external systems in use: Google Workspace (Sheets, Gmail, Drive), GoHighLevel CRM, Meta Ads.
 
@@ -33,7 +33,7 @@ Check `lessons.md` at session start. After any correction, append a new entry:
 - Keep functions small and focused
 - No dead code or unused imports
 
-## Claude Code Behavior
+## Codex Behavior
 
 - Always read relevant files before editing
 - Do not commit, push, or delete files without explicit instruction

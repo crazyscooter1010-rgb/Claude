@@ -1,0 +1,151 @@
+Transcript — "Secret Way to Connect Claude Code to GoHighLevel (Fully Automated GHL)"
+Channel: Lead Gen Jay | Duration: 21:25 | Source: https://youtu.be/FlSEVPbRyKI
+================================================================================
+
+If you use GoHighLevel, then this video is literally about to change your life in an actual meaningful way. Because in this video, I'm going to be showing you something never before seen on YouTube, I guarantee it. I'm going to teach you how to fully automate your GoHighLevel workflows in a way that the GHL API and MCP server does not allow. I'm Lee Gen Jay, I run two eight-figure agencies, and at one point, I was one of GHL's top paid partners.
+
+But now, I'm off their payroll, and we can have some fun. So, what I'm about to show you might be against their terms of service. So, to my friends at GHL, if you're watching this, please don't cancel my account. Now, with a single command, Claude can now analyze every single step in every single workflow in your GHL instance.
+
+But this is where it gets really insane. What if Claude could actually build entire workflows inside of GHL for you with unique triggers and conditions and fully formatted emails so that you never have to open a GHL automation ever again. Now, I know what you're thinking, and the answer to your question is no. This isn't some payday AI tool I'm about to pitch you, and it's not using the GoHighLevel API or MCP server.
+
+What I'm going to show you it's completely free, and I'm going to show you how to install it in less than 5 minutes. All you need is a GHL account and Claude. Now, let's start with a quick demo. Now, I've got Claude code opened here, and you don't have to do this inside of Claude code, you can use Claude co-work, you can use Claude desktop app.
+
+And what I'm going to tell it to do is use GoHighLevel CLI. This is the skill that I built that I'm going to give to you for free that you can install in under 5 minutes. Now, it's not just a skill. This is actually several things packaged together in order to make this work, and I'm going to be walking you through that.
+
+And pull the course sales sequence and open in notes. And now, what it's going to do is it's going to actually run a Python script using my actual login credentials at GoHighLevel to search through my workflows. These are API endpoints that don't exist. It's looking through my GoHighLevel, it's pulling all of the nodes in that workflow.
+
+And now, it's going to open it up in my browser. Look at that. It went through all of my different workflows. Best mask, course interest sales sequence, that is the one that I wanted.
+
+So, I just used normal language. I didn't even have to give it the exact name. It found it for me. Cuz now it has access to everything within my account.
+
+Quick update, pulled the 88-step published workflow, and now it's building me a summary and notes so I can show you exactly what it pulled. Now, anytime I want to edit something, I do use this note skill. It opens up in my browser and I can communicate with Claude and give it feedback. But, I just wanted to show you how this worked first.
+
+And just like that, Claude opened it up inside of my browser. It's got the entire sequence mapped out. It's got all of the steps. It's got all of the emails with all of the copy.
+
+So, it now has access to all of this information so that it can edit the emails. It can change the the conditions. It can change the triggers. This is something that is not possible using the GHL API.
+
+This is literally the the max that you can do with any alternative to what I'm showing you. And create workflow email. Check workflow for steps is not an option inside of their API. What we're doing is black hatting.
+
+What we're doing is a custom script. So, I'm going to show you exactly how to install it and how to do exactly what I just did, plus how to build sequences. So, GHL actually built all of these sequences for me yesterday. Literally last updated yesterday.
+
+We're about to go through these and edit them and turn them on. But, this isn't just good for analyzing and mapping all of your sequences. This literally is the new way that I get sequences and put them into GHL. It does conditions.
+
+It does triggers. It does goals. Everything that you would normally have to do manually is now done just using this GHL skill and script. Now, I'm going to show you how to install it, but this is basically the repo that I put together that you're going to have access to that has all of the files.
+
+The Python script, which you don't really have to worry about. It's going to install it for you in Claude code and the skill will know how to use it, as well as the Chrome extension so that you can get your login credentials. Actually built this custom. It's this GHL token grabber.
+
+So, when you're logged in to Go High Level, like I am here, you'll just click on here and grab refresh token, and it grabs all the tokens that you need. You can copy it to clipboard and give it to Claude. And I've never actually had to refresh this. I've been using it for months.
+
+Once you did get it once, it pretty much stays logged in indefinitely, and it can do all of these amazing actions inside of your GHL just with this one-time setup. And just to show you what's possible, this is actually all of my workflows app. There is 481 workflows, 286 published. Now, if this feels like you, you've been building workflows in GHL, or maybe you had an agency that was doing it for you, and you just have so much noise going on inside of your CRM that you have no idea what's interacting with what, what emails people are getting, where to find certain triggers, me too.
+
+That feels super familiar to me. If you take a look inside of my GHL, there are so many folders, so many hands that have been in this bucket this skill, it literally would have been impossible to organize all of it. Now, I know exactly what's going on. I know how a lead flows from when they opt in to a lead magnet to when they book a call to when they purchase something.
+
+I know exactly where they're going, what emails they're getting. But what's even more important, now my AI knows, and it can map those things. It can change those things. And if a variable changes, we introduce a new product, a new offer, a new calendar.
+
+Now, we can just give that information to Claude, and it can update those workflows for us. Now, if you've been following AI for a while and automation, you're probably also using Go High Level, and you were excited about their MCP server. Well, it's not nearly as powerful as you think it is. This is literally the alternative that everybody else is using right now, and you're about to blow them out of the water because the capabilities with this is going to basically take all of these 36 available tools and expand it way beyond even what I just showed you.
+
+Reading workflows, checking all workflows, creating workflows. You're going to be able to do so much more. Just about anything that you can do inside of the actual platform, you're going to be able to do using our new skill set. And now you might be asking yourself, "How?
+
+If GoHighLevel doesn't give you those possibilities and endpoints, how are we able to do it without those endpoints?" And this is why I said, "GoHighLevel, please don't cancel my account." Well, every app has an API that they released to the public. This is these 36 tools. But, anytime that you take an action inside of a software like GoHighLevel, it actually triggers an internal API call. And if you can figure out what those internal API calls are, you can recreate them, and Claude can actually utilize them to do a lot more.
+
+Just about anything that you can do while logged in, Claude can now do. However, it needs the login tokens, which we're going to provide it with that extension. And now, just about anything that you can do from the actual app, now you can do that using this new tool. So, I know I'm focused on workflows, but just know that the possibilities here are pretty much endless.
+
+Now, if you're watching this and you're like, "Jay, this sounds awesome. I want to start installing this and using this, what do I need?" Well, the prerequisites are pretty much nothing. So, coming over here, I actually asked, "What are the prerequisites to using this skill?" You don't even need an agency account with GHL. You can have one of my sub accounts and be able to do this.
+
+All you need is a GoHighLevel account with access to at least one location or sub account. Super easy. You need a private integration token. I'm going to show you how to generate that.
+
+You need your location ID. I'll show you where to find that. And you're going to need Python 3.1. Don't worry about that.
+
+Once you install my repo and give it to your Claude, it's going to install all of this for you, create everything, so that you can start using this seamlessly without any barriers. Last but not least, I designed this to work inside of Chrome. If you don't use Chrome, you can probably still get this to work. You just might need to modify.
+
+Okay, so let's start with a GHL account with access to at least one location or sub account. So, right now I'm inside of my sub-account, Lead Gen Jet. Now, I have an agency account with GHL, meaning I've got a lot of sub-accounts under management. But, the API key that I need to generate is within this sub-account.
+
+I'm going to show you how to generate that API key, and the location ID is the one right here in this URL. So, we've got our root, app.leadgenjet.com/location. What's after this the location {slash} is the location ID. You're going to need to give that to your client as well as the API key.
+
+Now, to generate the API key in GHL, you're going to come into your settings in the bottom left. You're then going to click private integrations. These are all of the private integrations that I have set up. This is what you need to create.
+
+So, you're going to come into create new integration. I'm just going to call this test. And now, scopes. You want to pretty much give it as many scopes as you want.
+
+Whatever you want this to do, it should have access to that thing. Now, because we're using my custom Python script and custom skill, we really want to this to have access to everything. So, we can literally just select all and have it have full full scopes. And then we can go ahead and create that key.
+
+Don't worry, I'm going to revoke this as soon as this video is over. And then we're going to copy this key. The private integration key should start with PIT- And now you now you know you've got the correct key. Going to go ahead and confirm and create.
+
+Now, I think you can only have five of these keys max. So, if you already have five, you may have to delete one or two before creating that second one. Prerequisite's pretty much done. And if you want a GHL sub-account, or maybe you think you're overpaying for one, you can come to leadgenjet.com/crm and actually buy one from me for $49 per month.
+
+Or, if you join our Insiders program, we give you one for free. And while we're talking about it, if you're interested in starting a GHL white label agency, meaning doing what I do, being able to create unlimited sub-accounts for either your clients or as a an add-on to your offer, you should definitely check out my GHL white label course. It's completely free. You get a 30-day extended trial to GHL agency plan.
+
+So, you can literally just go to leadgenjet.com, hover over free, and find GHL white label course, and you'll find it right away. It's also going to be linked down below. So now that you've got your location ID, your API key, the next thing that you're going to need is this Chrome extension. That Chrome extension grabs a Firebase token that you need to use the internal GHL API.
+
+The public API can't create workflow, but the internal one can. And by the way, if you want to see what else that this skill can do, you should read the repo that I've built. It's got the 11 command groups. It's got exactly how it works.
+
+Now, what you're going to want to do is install this Chrome extension. And to do that, you're going to have a file from this GitHub repo. If you're ever have questions, you can just ask your Claude where to find something, but that file's going to be in your downloads folder or in this repo folder on your computer. You're going to go ahead and come to your Chrome extensions.
+
+I'm going to come to manage extensions. I'm going to say, make sure I'm in developer mode checked. A Chrome extension is really just going to be a folder, and you're going to want to open this folder with in developer mode. So I'm going to go ahead and say load unpacked, and now it's going to open up my downloads folder.
+
+From here, you're going to select that folder, and just like that, the Chrome extension's going to pop up here, and you're going to want to enable it. Then, you're going to come to your GHL, open up that extension, grab refresh token, copy it to your clipboard, and give it to your Claude. And like I mentioned earlier, I literally only had to do this the first time that I installed it. Go HighLevel's actually pretty chill about their tokens working or being revoked.
+
+The one that I made months ago still works today. And now, your Claude code should have full capabilities to be able to utilize the skill and all of the commands, create workflows, and analyze workflows. Now, if you're like me and you had a bunch of workflows, and your goal is really just to kind of map them, organize everything, create new workflows, or modify old outdated workflows, awesome. But for a lot of you, you're going to be doing this for your first time.
+
+You're setting up GHL, you've got a new business, and your main focus right now as a as a beginner, as a new business, is to launch workflows that you absolutely need, like abandoned carts, like nurture sequences, like sales sequences, like onboarding sequences. And now with the power of AI and this GHL tool that we built, you can launch all of these things in a single day super easily because GHL's really great at writing copy. It's really great at installing these into GHL. And now you can focus on the strategy, the hard part.
+
+So, what I would recommend doing to start using this cuz this knows how to build and install workflows and to analyze workflows. The other skill that you're going to need is how to write email copy, how to write great nurture sequences and sales sequences and email marketing campaigns. So, coming to leadgenj.com/skills, you'll be able to find skills related to email marketing to help you build out email campaigns, to help you write like a better copywriter. And you'll also see the GHL CLI skill reserved here only for LGJ exclusive members, but you for watching this video, I'm going to show you how to get this absolutely free without having to pay for anything.
+
+Now, if you're getting value so far, just wait until what's next. I'm about to show you something absolutely insane. But if you stayed this long, please go ahead and like this video. It does help my channel out a lot.
+
+It incentivizes me to put stuff like this out there for free on YouTube for you instead of just reserving it for my paid communities. Like these videos and subscribe and I'll continue to do so and drop a comment so we can discuss, you know, this topic and some other stuff that you might be doing with AI. Now, I just want to take 1 second to thank my boy Dr. Blade, who's my friend in Miami.
+
+He's also an AI nerd like me. He's actually comes over and works in the seat next to me all the time. We nerd out about AI. He's actually the one who initially built this tool and cracked this code.
+
+So, I wanted to give Dr. Blade a shout-out and not take full credit for this. He's actually the original mastermind, but it's been such a powerful tool that I just had to bring it to the public. If you want to check out Dr.
+
+Blade and his school community, I'm going to link it down below as well, so you can go give him some love. Now, I promised you some more craziness, so here it comes. We love GHL. It is by far the most cost-effective, powerful, globally amazing tool that is available as a CRM.
+
+Obviously, I build a lot of AI tools myself and internal tools. I have no intention of building something that replaces GHL. They excel really good at a lot of different things, but they're also a little bit weak in some areas. already built replacements for some of the stuff that GHL does, like their forms.
+
+I don't love their forms. We don't process payments through GHL's payments platform anymore. We still use them for workflows because as a CRM, lead comes in, sales teams in GHL, calendars are in GHL. We need a good unified CRM that's powerful.
+
+However, one of the areas that GHL does not do so great at is email marketing once you've got a pretty big list. Now, if you take a look at our GHL contact list, it's grown to a little over 80,000 people. I cannot comfortably send an email newsletter to 80,000 people from GHL. Chances are that thing is going to go to spam or promotions, and the reason for that is GoHighLevel does not have very clean IP address reputations because so many new entrepreneurs use GoHighLevel, send bad emails, and ruin their IP addresses.
+
+So, if you come into GoHighLevel and you come into email services, this is something that they're working on. So, I just want to put that out there. Now, you want to make sure that you've got a fully configured subdomain and your DNS records are all configured correctly. I'm not going to go into detail on that in this video, but I do talk a lot about deliverability and DNS setup in other videos.
+
+I'll link them down below. But, for this video, just make sure that when you're in email services, it looks like this, dedicated domain and IP. Just make sure that you've got a good subdomain here. Make sure that it's warming up, and I would make sure that you're on one of their shared IPs.
+
+They offer dedicated IPs, but they suck. I do not recommend these. You're way more likely to ruin these and it hurt your deliverability than just relying on their already pretty bad shared IP addresses. So, even if this is all configured correctly and you need to make sure that this is, this is the deliverability part, you still don't want to send big email newsletter blasts using GHL.
+
+It's really not designed for that. There's a reason that email marketing companies like Mailchimp and ActiveCampaign are still so strong. They're way worse as CRMs, but they've got a lot stronger deliverability. They make sure that those IP addresses are squeaky clean and if you send an email from their IP address, it's going to land in the inbox.
+
+For GoHighLevel, you cannot say the same thing. So, whereas we still use them for automations and workflows and usually it's okay, when we do our actual email marketing, we send a newsletter, we send a promotion, we send an update to 50,000 plus people, we do not do it from inside of GHL. But I still wanted a good way to send those emails using my Claude. And there's not a lot of good options to actually draft and send and build lists and build entire sequences inside of an email marketing platform where I know it's going to land in the inbox.
+
+So, what do you do to solve this? Say you want a fully AI-powered email marketing system. All of your nurture sequences and sales sequences can be in GHL, sure. What we actually do is we take our nurture sequences and we bring them out of GHL as well.
+
+Because for a nurture sequence, this is somebody who just opted in like you. You're going to click down below, you're going to grab my lead magnet, which is going to let you install this GoHighLevel CLI for free. Of course you are. You're going to give me your email, you're going to install this, it's going to be awesome.
+
+But at that point, you're not a very warm lead. You probably don't want to get that many emails from me. And you're still at a pretty high likelihood of reporting me as spam, please don't. And I really don't want that to affect my GHL reputation.
+
+So, instead, what I want to do to make sure this email to you gets through and the next email you get from me is probably not going to be from GHL as I want to use a different email marketing tool. The one that we use is called Kit. This one is formerly convertkit.nowkit.com. This is by far the most friendly AI email marketing system that I've ever used.
+
+Using their actual in-house API, you can generate entire sequences, you can write and send emails to to your entire list all without having to log into Kit. You can do all of it from your cloud. So now I'm going to talk briefly about what you should use GHL for and what you should use a different email marketing system for. I recommend Kit and I'm going to be giving you an extended trial down below in the link.
+
+So please go down there and click that if you're interested in using Kit. I've tried all of the other email marketing systems. Brevo is the worst, Beehiiv sucks, ActiveCampaign is way too expensive. Kit's the one we landed on and I've never been happier with an email marketing platform.
+
+What we use Kit for is our nurture sequences. Somebody just opted in off a random lead magnet. I want you getting emails that are guaranteed to land in the inbox first. And if you report them as spam, please don't.
+
+Kit is going to take care of protecting that IP address. The other two things we use Kit for, reengagement sequences. So if somebody stops opening my email, stops clicking, stops responding to my emails for 180 days, I consider that an inactive lead and what we try and do is put them into a reactivation campaign. And chances are after they haven't heard from us in a long time or they haven't engaged in a long time, that person is more likely to report our emails as spam, which means I don't want it to happen inside of GHL.
+
+I want it to happen inside of Kit. Then the main thing that we use Kit for is actually sending broadcast emails to our entire list. Kit is designed for newsletters, for sending mass numbers of emails to a large amount of people. The other reason GHL is not designed for that is they actually charge you per email.
+
+Kit does not. So, if you're trying to send emails to a big list, one, they're likely not to end up in the inbox, and two, it's going to end up costing you a lot of money if you do it a lot of the time. And if you're a nerd like me, take a look at Kit's API documentation. Literally, create a sequence email, get a sequence email, update a sequence email.
+
+You can do everything from this Kit API. So, using that API, we built a custom CLI so that my Cloud code, as you can see here, I just typed in {slash} Kit, and it opened up LGJA Email Marketing. That uses Kit to create and send emails to my entire list. It knows the right format for those emails, so it adds hyperlinks in the right places, unsubscribe links and addresses in the right places.
+
+So, if you want access to that as well, it's going to be on leadginger.com/skills. Fair warning, as your list gets bigger, Kit does get a little bit more expensive, just like every email marketing tool does. But, when you stack it up against the competition, it's still way better. Now, if you guys are ever looking for any of the software deals or tools that I recommend, you can just come to leadginger.com/software.
+
+It's a publicly available page, and come see all of the stuff that I actually use and recommend actively. I keep this up-to-date. Here's Kit with the extended trial. You can see we've got GHL platinum sub-account where you can literally get a sub-account from me for $49 or GHL agency account where you can get an extended trial at GHL.
+
+Now, to start using the skills and tools that I've mentioned today, go to the link down below. It's going to be linked in this video, and from there, you're going to be able to download this private repo. As you can see, it's locked. If you try and Google this, it's not going to show up.
+
+So, you do have to give me your email address. It's going to unlock this for you, and you're going to be able to download this entire repo and start using it right away. Now, if you found this video helpful, please give the video a thumbs up so YouTube shows you more like this. I'm not just some YouTuber who regurgitates what everybody else is saying or reports on the news.
+
+I'm a real entrepreneur running real large companies who is using this stuff in my day-to-day business. There's not a lot of guys on YouTube like me. So, subscribe if you want more of this. And if you haven't already, I've got another video on GHL teaching you another hack that nobody's teaching to set up Instagram DM triggers.
+
+You're going to want to watch that next, and I'll see you soon.

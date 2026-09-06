@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__google-sheets__read_sheet",
+      "mcp__claude_ai_Google_Drive__read_file_content",
+      "mcp__claude_ai_Google_Drive__search_files",
+      "mcp__claude_ai_Gmail__search_threads",
+      "mcp__claude_ai_Google_Calendar__list_events",
+      "mcp__claude_ai_Stripe__search_stripe_resources"
+    ],
+    "deny": [
+      "Bash(rm -rf *)",
+      "Bash(rm -r /*)",
+      "Read(.env)",
+      "Read(*.env)",
+      "Read(.env.*)"
+    ]
+  }
+}
