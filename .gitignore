@@ -9,3 +9,6 @@ build
 .next
 .vercel
 .cache
+
+# live Google OAuth tokens — runtime only, never in git
+slides_*_token.json
