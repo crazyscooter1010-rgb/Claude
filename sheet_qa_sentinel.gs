@@ -40,13 +40,13 @@ var CONFIG = {
     closed: 'Closed?',
     closeDate: 'Close Date'
   },
-  // Call Attempts headers — NOT independently confirmed against the live tab.
-  // Adjust these to match your actual header row; a mismatch logs a CONFIG WARNING
-  // rather than breaking the run.
+  // Call Attempts headers, confirmed 2026-09-20 against the live tab. Note: the
+  // attempt-code column (e.g. "A-001") has no header text at all — it's always
+  // column A — so it's handled by fixed position in findCallAttemptIssues, not by
+  // name lookup here.
   CALL_TAB_COLS: {
-    code: 'Code',
     leadId: 'Lead ID',
-    date: 'Date',
+    date: 'Attempt Date',
     attemptNum: 'Attempt #',
     channel: 'Channel',
     outcome: 'Outcome'
@@ -170,6 +170,7 @@ function findCallAttemptIssues(sheet) {
     c[key] = colIndex(header, CONFIG.CALL_TAB_COLS[key]);
     if (c[key] === -1) flags.push(configWarning('Call Attempts column "' + CONFIG.CALL_TAB_COLS[key] + '" not found.'));
   }
+  c.code = 0; // attempt-code column (e.g. "A-001") is always column A; it has no header text to match by name
   if (c.leadId === -1 || c.date === -1) return flags; // can't do anything useful without these
 
   var seenCodes = {};
